@@ -1,4 +1,4 @@
-<!doctype html>
+ <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -12,15 +12,86 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <title>Boostrap Starter Page</title>
+    <title>hebs coursera solution mod3</title>
+    
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
+  
+  
+
 <body>
+  <header>	
+    <nav id="myheader" class="navbar navbar-default">
+      <div id="myheader-container" class="container-fluid">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <div id="brand-text">Food, LLC</div>
+          </div>
 
-  <h1>Hello Coursera!</h1>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+          </button>  
 
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+        </div>            
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+             <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li class="visible-xs active">
+                <a href="#menu-chicken">Chicken</a>                
+              </li>
+              <li class="visible-xs active">
+                <a href="#">Beef</a>                
+              </li>
+              <li class="visible-xs active">
+                <a href="#">Sushi</a>
+              </li>      
+            </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+	
+  <div id="main-content" class="container">
+   <div class="container-fluid">   
+    <h2 id="menu-title" class="text-center">Our Menus</h2>
+
+    <section class="row">
+      <div class="menu-item">
+        <div class="row">    
+
+          <div class="menu-item-description"> 
+
+            <h3 id="menu-chicken"  class="menu-item-title text-center">Chicken</h3>
+          
+            <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.
+
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>          
+          </div>
+
+        </div>
+      </div>
+    </section>
+    </div> <!-- end of fluid container-->
+  </div><!-- End of #main-content -->	
+	
+	  <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
