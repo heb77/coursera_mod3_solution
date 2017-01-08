@@ -1,0 +1,56 @@
+body {
+	font-size: 16px;
+  	color: black;
+  	font-family: 'Oxygen', sans-serif;
+}
+
+
+
+/** HEADER **/
+#myheader-container {
+	background-color: dimgray;
+}
+
+#brand-text {
+	color: black;
+	font-size: 1.5em;
+}
+
+#nav-list a {
+  	color: black;  
+  	text-align: center;
+  	border-bottom-style: solid ;
+  	border-bottom-color: black;
+  	border-bottom-width: thin;
+}
+
+#nav-list a:hover {
+  	background: #E7E7E7;
+}
+
+
+/** CONTENT **/
+.menu-item-description{
+	background: dimgray;
+}
+
+
+/** ******** Extra small devices only ******** **/
+@media (max-width: 767px) {
+
+	/** menu nav list **/
+	#collapsable-nav {
+		background-color: white; 
+	}    
+
+
+    /** content **/
+	.menu-item-description{
+	  	margin-right: 2%;
+	    margin-left: 2%;    
+	}
+
+	.menu-item-details  {
+		padding-left: 10px;
+	}
+}
